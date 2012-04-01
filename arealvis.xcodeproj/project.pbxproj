@@ -21,10 +21,10 @@
 		2ECB5F0515218D6300E9CC2A /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EFC15218D6300E9CC2A /* DDXMLDocument.m */; };
 		2ECB5F0615218D6300E9CC2A /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EFE15218D6300E9CC2A /* DDXMLElement.m */; };
 		2ECB5F0715218D6300E9CC2A /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0015218D6300E9CC2A /* DDXMLNode.m */; };
-		2ECB5F0A15218DE400E9CC2A /* xmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0915218DE400E9CC2A /* xmlParser.m */; };
 		2ECB5F0C15218E0600E9CC2A /* arealvis_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0B15218E0600E9CC2A /* arealvis_config.xml */; };
 		2ECB5F0F15218F5D00E9CC2A /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */; };
 		2ECB5F12152192B700E9CC2A /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F11152192B700E9CC2A /* LevelViewController.m */; };
+		2EF65BDB1528614A0067741F /* xmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF65BDA1528614A0067741F /* xmlParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,13 +55,13 @@
 		2ECB5EFF15218D6300E9CC2A /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
 		2ECB5F0015218D6300E9CC2A /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
 		2ECB5F0215218D6300E9CC2A /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
-		2ECB5F0815218DE400E9CC2A /* xmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlParser.h; path = ../xmlParser.h; sourceTree = "<group>"; };
-		2ECB5F0915218DE400E9CC2A /* xmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = xmlParser.m; path = ../xmlParser.m; sourceTree = "<group>"; };
 		2ECB5F0B15218E0600E9CC2A /* arealvis_config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = arealvis_config.xml; sourceTree = SOURCE_ROOT; };
 		2ECB5F0D15218F5D00E9CC2A /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
 		2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
 		2ECB5F10152192B700E9CC2A /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
 		2ECB5F11152192B700E9CC2A /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+		2EF65BD8152861390067741F /* xmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlParser.h; sourceTree = "<group>"; };
+		2EF65BDA1528614A0067741F /* xmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xmlParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +109,8 @@
 		2ECB5EDC15218CAC00E9CC2A /* arealvis */ = {
 			isa = PBXGroup;
 			children = (
-				2ECB5F0815218DE400E9CC2A /* xmlParser.h */,
-				2ECB5F0915218DE400E9CC2A /* xmlParser.m */,
+				2EF65BD8152861390067741F /* xmlParser.h */,
+				2EF65BDA1528614A0067741F /* xmlParser.m */,
 				2ECB5EE515218CAD00E9CC2A /* AppDelegate.h */,
 				2ECB5EE615218CAD00E9CC2A /* AppDelegate.m */,
 				2ECB5F0D15218F5D00E9CC2A /* ConfigViewController.h */,
@@ -253,10 +253,10 @@
 				2ECB5F0515218D6300E9CC2A /* DDXMLDocument.m in Sources */,
 				2ECB5F0615218D6300E9CC2A /* DDXMLElement.m in Sources */,
 				2ECB5F0715218D6300E9CC2A /* DDXMLNode.m in Sources */,
-				2ECB5F0A15218DE400E9CC2A /* xmlParser.m in Sources */,
 				2ECB5F0F15218F5D00E9CC2A /* ConfigViewController.m in Sources */,
 				2ECB5F12152192B700E9CC2A /* LevelViewController.m in Sources */,
 				2EBD2BE415284F540017C227 /* NextViewController.m in Sources */,
+				2EF65BDB1528614A0067741F /* xmlParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
