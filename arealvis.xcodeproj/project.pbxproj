@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EBD2BE415284F540017C227 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD2BE315284F540017C227 /* NextViewController.m */; };
+		2ECB5ED715218CAC00E9CC2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB5ED615218CAC00E9CC2A /* UIKit.framework */; };
+		2ECB5ED915218CAC00E9CC2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB5ED815218CAC00E9CC2A /* Foundation.framework */; };
+		2ECB5EDB15218CAC00E9CC2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB5EDA15218CAC00E9CC2A /* CoreGraphics.framework */; };
+		2ECB5EE115218CAD00E9CC2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB5EDF15218CAD00E9CC2A /* InfoPlist.strings */; };
+		2ECB5EE315218CAD00E9CC2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EE215218CAD00E9CC2A /* main.m */; };
+		2ECB5EE715218CAD00E9CC2A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EE615218CAD00E9CC2A /* AppDelegate.m */; };
+		2ECB5EEA15218CAD00E9CC2A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB5EE815218CAD00E9CC2A /* MainStoryboard.storyboard */; };
+		2ECB5EED15218CAD00E9CC2A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EEC15218CAD00E9CC2A /* ViewController.m */; };
+		2ECB5F0315218D6300E9CC2A /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EF615218D6300E9CC2A /* DDXMLElementAdditions.m */; };
+		2ECB5F0415218D6300E9CC2A /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EF915218D6300E9CC2A /* NSString+DDXML.m */; };
+		2ECB5F0515218D6300E9CC2A /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EFC15218D6300E9CC2A /* DDXMLDocument.m */; };
+		2ECB5F0615218D6300E9CC2A /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5EFE15218D6300E9CC2A /* DDXMLElement.m */; };
+		2ECB5F0715218D6300E9CC2A /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0015218D6300E9CC2A /* DDXMLNode.m */; };
+		2ECB5F0A15218DE400E9CC2A /* xmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0915218DE400E9CC2A /* xmlParser.m */; };
+		2ECB5F0C15218E0600E9CC2A /* arealvis_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0B15218E0600E9CC2A /* arealvis_config.xml */; };
+		2ECB5F0F15218F5D00E9CC2A /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */; };
+		2ECB5F12152192B700E9CC2A /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F11152192B700E9CC2A /* LevelViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2EBD2BE215284F540017C227 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		2EBD2BE315284F540017C227 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		2ECB5ED215218CAC00E9CC2A /* arealvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arealvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECB5ED615218CAC00E9CC2A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2ECB5ED815218CAC00E9CC2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2ECB5EDA15218CAC00E9CC2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2ECB5EDE15218CAD00E9CC2A /* arealvis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "arealvis-Info.plist"; sourceTree = "<group>"; };
+		2ECB5EE015218CAD00E9CC2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2ECB5EE215218CAD00E9CC2A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2ECB5EE415218CAD00E9CC2A /* arealvis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arealvis-Prefix.pch"; sourceTree = "<group>"; };
+		2ECB5EE515218CAD00E9CC2A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2ECB5EE615218CAD00E9CC2A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2ECB5EE915218CAD00E9CC2A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		2ECB5EEB15218CAD00E9CC2A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2ECB5EEC15218CAD00E9CC2A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2ECB5EF515218D6300E9CC2A /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		2ECB5EF615218D6300E9CC2A /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		2ECB5EF815218D6300E9CC2A /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		2ECB5EF915218D6300E9CC2A /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		2ECB5EFA15218D6300E9CC2A /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		2ECB5EFB15218D6300E9CC2A /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		2ECB5EFC15218D6300E9CC2A /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		2ECB5EFD15218D6300E9CC2A /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		2ECB5EFE15218D6300E9CC2A /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		2ECB5EFF15218D6300E9CC2A /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		2ECB5F0015218D6300E9CC2A /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		2ECB5F0215218D6300E9CC2A /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		2ECB5F0815218DE400E9CC2A /* xmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xmlParser.h; path = ../xmlParser.h; sourceTree = "<group>"; };
+		2ECB5F0915218DE400E9CC2A /* xmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = xmlParser.m; path = ../xmlParser.m; sourceTree = "<group>"; };
+		2ECB5F0B15218E0600E9CC2A /* arealvis_config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = arealvis_config.xml; sourceTree = SOURCE_ROOT; };
+		2ECB5F0D15218F5D00E9CC2A /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		2ECB5F10152192B700E9CC2A /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
+		2ECB5F11152192B700E9CC2A /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECB5ECF15218CAC00E9CC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB5ED715218CAC00E9CC2A /* UIKit.framework in Frameworks */,
+				2ECB5ED915218CAC00E9CC2A /* Foundation.framework in Frameworks */,
+				2ECB5EDB15218CAC00E9CC2A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECB5EC715218CAC00E9CC2A = {
+			isa = PBXGroup;
+			children = (
+				2ECB5EF315218D6300E9CC2A /* KissXML */,
+				2ECB5EDC15218CAC00E9CC2A /* arealvis */,
+				2ECB5ED515218CAC00E9CC2A /* Frameworks */,
+				2ECB5ED315218CAC00E9CC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ECB5ED315218CAC00E9CC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5ED215218CAC00E9CC2A /* arealvis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ECB5ED515218CAC00E9CC2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5ED615218CAC00E9CC2A /* UIKit.framework */,
+				2ECB5ED815218CAC00E9CC2A /* Foundation.framework */,
+				2ECB5EDA15218CAC00E9CC2A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2ECB5EDC15218CAC00E9CC2A /* arealvis */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5F0815218DE400E9CC2A /* xmlParser.h */,
+				2ECB5F0915218DE400E9CC2A /* xmlParser.m */,
+				2ECB5EE515218CAD00E9CC2A /* AppDelegate.h */,
+				2ECB5EE615218CAD00E9CC2A /* AppDelegate.m */,
+				2ECB5F0D15218F5D00E9CC2A /* ConfigViewController.h */,
+				2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */,
+				2ECB5F10152192B700E9CC2A /* LevelViewController.h */,
+				2ECB5F11152192B700E9CC2A /* LevelViewController.m */,
+				2EBD2BE215284F540017C227 /* NextViewController.h */,
+				2EBD2BE315284F540017C227 /* NextViewController.m */,
+				2ECB5EE815218CAD00E9CC2A /* MainStoryboard.storyboard */,
+				2ECB5EEB15218CAD00E9CC2A /* ViewController.h */,
+				2ECB5EEC15218CAD00E9CC2A /* ViewController.m */,
+				2ECB5EDD15218CAD00E9CC2A /* Supporting Files */,
+			);
+			path = arealvis;
+			sourceTree = "<group>";
+		};
+		2ECB5EDD15218CAD00E9CC2A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5F0B15218E0600E9CC2A /* arealvis_config.xml */,
+				2ECB5EDE15218CAD00E9CC2A /* arealvis-Info.plist */,
+				2ECB5EDF15218CAD00E9CC2A /* InfoPlist.strings */,
+				2ECB5EE215218CAD00E9CC2A /* main.m */,
+				2ECB5EE415218CAD00E9CC2A /* arealvis-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2ECB5EF315218D6300E9CC2A /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5EF415218D6300E9CC2A /* Additions */,
+				2ECB5EF715218D6300E9CC2A /* Categories */,
+				2ECB5EFA15218D6300E9CC2A /* DDXML.h */,
+				2ECB5EFB15218D6300E9CC2A /* DDXMLDocument.h */,
+				2ECB5EFC15218D6300E9CC2A /* DDXMLDocument.m */,
+				2ECB5EFD15218D6300E9CC2A /* DDXMLElement.h */,
+				2ECB5EFE15218D6300E9CC2A /* DDXMLElement.m */,
+				2ECB5EFF15218D6300E9CC2A /* DDXMLNode.h */,
+				2ECB5F0015218D6300E9CC2A /* DDXMLNode.m */,
+				2ECB5F0115218D6300E9CC2A /* Private */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		2ECB5EF415218D6300E9CC2A /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5EF515218D6300E9CC2A /* DDXMLElementAdditions.h */,
+				2ECB5EF615218D6300E9CC2A /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		2ECB5EF715218D6300E9CC2A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5EF815218D6300E9CC2A /* NSString+DDXML.h */,
+				2ECB5EF915218D6300E9CC2A /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2ECB5F0115218D6300E9CC2A /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5F0215218D6300E9CC2A /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ECB5ED115218CAC00E9CC2A /* arealvis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECB5EF015218CAD00E9CC2A /* Build configuration list for PBXNativeTarget "arealvis" */;
+			buildPhases = (
+				2ECB5ECE15218CAC00E9CC2A /* Sources */,
+				2ECB5ECF15218CAC00E9CC2A /* Frameworks */,
+				2ECB5ED015218CAC00E9CC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arealvis;
+			productName = arealvis;
+			productReference = 2ECB5ED215218CAC00E9CC2A /* arealvis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECB5EC915218CAC00E9CC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2ECB5ECC15218CAC00E9CC2A /* Build configuration list for PBXProject "arealvis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2ECB5EC715218CAC00E9CC2A;
+			productRefGroup = 2ECB5ED315218CAC00E9CC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECB5ED115218CAC00E9CC2A /* arealvis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECB5ED015218CAC00E9CC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB5EE115218CAD00E9CC2A /* InfoPlist.strings in Resources */,
+				2ECB5EEA15218CAD00E9CC2A /* MainStoryboard.storyboard in Resources */,
+				2ECB5F0C15218E0600E9CC2A /* arealvis_config.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ECB5ECE15218CAC00E9CC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB5EE315218CAD00E9CC2A /* main.m in Sources */,
+				2ECB5EE715218CAD00E9CC2A /* AppDelegate.m in Sources */,
+				2ECB5EED15218CAD00E9CC2A /* ViewController.m in Sources */,
+				2ECB5F0315218D6300E9CC2A /* DDXMLElementAdditions.m in Sources */,
+				2ECB5F0415218D6300E9CC2A /* NSString+DDXML.m in Sources */,
+				2ECB5F0515218D6300E9CC2A /* DDXMLDocument.m in Sources */,
+				2ECB5F0615218D6300E9CC2A /* DDXMLElement.m in Sources */,
+				2ECB5F0715218D6300E9CC2A /* DDXMLNode.m in Sources */,
+				2ECB5F0A15218DE400E9CC2A /* xmlParser.m in Sources */,
+				2ECB5F0F15218F5D00E9CC2A /* ConfigViewController.m in Sources */,
+				2ECB5F12152192B700E9CC2A /* LevelViewController.m in Sources */,
+				2EBD2BE415284F540017C227 /* NextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2ECB5EDF15218CAD00E9CC2A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECB5EE015218CAD00E9CC2A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2ECB5EE815218CAD00E9CC2A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECB5EE915218CAD00E9CC2A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ECB5EEE15218CAD00E9CC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2ECB5EEF15218CAD00E9CC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ECB5EF115218CAD00E9CC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arealvis/arealvis-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = "arealvis/arealvis-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2ECB5EF215218CAD00E9CC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "arealvis/arealvis-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = "arealvis/arealvis-Info.plist";
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ECB5ECC15218CAC00E9CC2A /* Build configuration list for PBXProject "arealvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB5EEE15218CAD00E9CC2A /* Debug */,
+				2ECB5EEF15218CAD00E9CC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECB5EF015218CAD00E9CC2A /* Build configuration list for PBXNativeTarget "arealvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB5EF115218CAD00E9CC2A /* Debug */,
+				2ECB5EF215218CAD00E9CC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECB5EC915218CAC00E9CC2A /* Project object */;
+}
