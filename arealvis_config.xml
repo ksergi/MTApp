@@ -5,7 +5,7 @@
 		<id descr="ID of the channel">1</id>
 		<framesrc>
  			<libav>
-				<url descr="Resource url of the frame source">[STREAM_ADDRESS_?]</url>
+				<url descr="Resource url of the frame source">http://192.168.43.26/~sergiokuhs/stream/prog_index.m3u8</url>
 				<width>240</width>
 				<height>180</height>
 				<buffersize descr="Number of buffered frames">50</buffersize>
@@ -301,7 +301,7 @@
 		<id>3</id>
 		<framesrc>
 			<libav>
-				<url descr="Resource url of the frame source">[STREAM_ADDRESS_?]</url>
+				<url descr="Resource url of the frame source">url3</url>
 				<width>240</width>
 				<height>180</height>
 				<buffersize descr="Number of buffered frames">50</buffersize>
@@ -448,7 +448,7 @@
 		<id>4</id>
 		<framesrc>
 			<libav>
-				<url descr="Resource url of the frame source">[STREAM_ADDRESS_?]</url>
+				<url descr="Resource url of the frame source">url4</url>
 				<width>240</width>
 				<height>180</height>
 				<buffersize descr="Number of buffered frames">50</buffersize>

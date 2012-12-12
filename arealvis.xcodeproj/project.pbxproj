@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E5591F2161644EF009EB107 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5591F1161644EF009EB107 /* Default-568h@2x.png */; };
+		2E65B57316600E09000A8F00 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E65B57216600E09000A8F00 /* me.png */; };
+		2E65B57816601012000A8F00 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65B57716601012000A8F00 /* AlertViewController.m */; };
+		2E65B57C16601730000A8F00 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E65B57B16601730000A8F00 /* CoreImage.framework */; };
+		2E65B57E16602078000A8F00 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E65B57D16602078000A8F00 /* ImageIO.framework */; };
+		2E65B58216603164000A8F00 /* sergi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E65B58116603164000A8F00 /* sergi.jpg */; };
+		2E65B5851660C2BA000A8F00 /* draw2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65B5841660C2BA000A8F00 /* draw2D.m */; };
 		2EBD2BE415284F540017C227 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBD2BE315284F540017C227 /* NextViewController.m */; };
 		2ECB5ED715218CAC00E9CC2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB5ED615218CAC00E9CC2A /* UIKit.framework */; };
 		2ECB5ED915218CAC00E9CC2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ECB5ED815218CAC00E9CC2A /* Foundation.framework */; };
@@ -25,9 +32,42 @@
 		2ECB5F0F15218F5D00E9CC2A /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */; };
 		2ECB5F12152192B700E9CC2A /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F11152192B700E9CC2A /* LevelViewController.m */; };
 		2EF65BDB1528614A0067741F /* xmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF65BDA1528614A0067741F /* xmlParser.m */; };
+		2EF65BE41528730A0067741F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF65BE31528730A0067741F /* MediaPlayer.framework */; };
+		2EF65BE6152874740067741F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2EF65BE5152874740067741F /* Settings.bundle */; };
+		2EF65BE9152874A10067741F /* MoviePlayerUserPrefs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF65BE8152874A10067741F /* MoviePlayerUserPrefs.m */; };
+		2EF65BEC1528770F0067741F /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF65BEB1528770F0067741F /* StreamViewController.m */; };
+		2EF65BF415287B810067741F /* GetStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF65BF315287B810067741F /* GetStreamViewController.m */; };
+		2EF65BF6152884A80067741F /* Movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 2EF65BF5152884A80067741F /* Movie.m4v */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2E73B84D166966A8003FF32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0DEB8EB41467EC9B00024989;
+			remoteInfo = RaptureXML;
+		};
+		2E73B84F166966A8003FF32E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0252B2DD142ADFC60018B75D;
+			remoteInfo = RaptureXMLTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2E5591F1161644EF009EB107 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		2E65B57216600E09000A8F00 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		2E65B57616601012000A8F00 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		2E65B57716601012000A8F00 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		2E65B57B16601730000A8F00 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2E65B57D16602078000A8F00 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2E65B58116603164000A8F00 /* sergi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sergi.jpg; sourceTree = "<group>"; };
+		2E65B5831660C2BA000A8F00 /* draw2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw2D.h; sourceTree = "<group>"; };
+		2E65B5841660C2BA000A8F00 /* draw2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = draw2D.m; sourceTree = "<group>"; };
+		2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RaptureXML.xcodeproj; path = ../../RaptureXML/RaptureXML.xcodeproj; sourceTree = "<group>"; };
 		2EBD2BE215284F540017C227 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		2EBD2BE315284F540017C227 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		2ECB5ED215218CAC00E9CC2A /* arealvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arealvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +102,15 @@
 		2ECB5F11152192B700E9CC2A /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
 		2EF65BD8152861390067741F /* xmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlParser.h; sourceTree = "<group>"; };
 		2EF65BDA1528614A0067741F /* xmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xmlParser.m; sourceTree = "<group>"; };
+		2EF65BE31528730A0067741F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		2EF65BE5152874740067741F /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2EF65BE7152874A10067741F /* MoviePlayerUserPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviePlayerUserPrefs.h; sourceTree = "<group>"; };
+		2EF65BE8152874A10067741F /* MoviePlayerUserPrefs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviePlayerUserPrefs.m; sourceTree = "<group>"; };
+		2EF65BEA1528770E0067741F /* StreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreamViewController.h; sourceTree = "<group>"; };
+		2EF65BEB1528770F0067741F /* StreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamViewController.m; sourceTree = "<group>"; };
+		2EF65BF215287B800067741F /* GetStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetStreamViewController.h; sourceTree = "<group>"; };
+		2EF65BF315287B810067741F /* GetStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetStreamViewController.m; sourceTree = "<group>"; };
+		2EF65BF5152884A80067741F /* Movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Movie.m4v; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +118,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E65B57E16602078000A8F00 /* ImageIO.framework in Frameworks */,
+				2E65B57C16601730000A8F00 /* CoreImage.framework in Frameworks */,
+				2EF65BE41528730A0067741F /* MediaPlayer.framework in Frameworks */,
 				2ECB5ED715218CAC00E9CC2A /* UIKit.framework in Frameworks */,
 				2ECB5ED915218CAC00E9CC2A /* Foundation.framework in Frameworks */,
 				2ECB5EDB15218CAC00E9CC2A /* CoreGraphics.framework in Frameworks */,
@@ -78,13 +130,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E73B848166966A7003FF32E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E73B84E166966A8003FF32E /* libRaptureXML.a */,
+				2E73B850166966A8003FF32E /* RaptureXMLTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		2ECB5EC715218CAC00E9CC2A = {
 			isa = PBXGroup;
 			children = (
-				2ECB5EF315218D6300E9CC2A /* KissXML */,
 				2ECB5EDC15218CAC00E9CC2A /* arealvis */,
 				2ECB5ED515218CAC00E9CC2A /* Frameworks */,
 				2ECB5ED315218CAC00E9CC2A /* Products */,
+				2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +160,9 @@
 		2ECB5ED515218CAC00E9CC2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E65B57D16602078000A8F00 /* ImageIO.framework */,
+				2E65B57B16601730000A8F00 /* CoreImage.framework */,
+				2EF65BE31528730A0067741F /* MediaPlayer.framework */,
 				2ECB5ED615218CAC00E9CC2A /* UIKit.framework */,
 				2ECB5ED815218CAC00E9CC2A /* Foundation.framework */,
 				2ECB5EDA15218CAC00E9CC2A /* CoreGraphics.framework */,
@@ -109,16 +173,13 @@
 		2ECB5EDC15218CAC00E9CC2A /* arealvis */ = {
 			isa = PBXGroup;
 			children = (
-				2EF65BD8152861390067741F /* xmlParser.h */,
-				2EF65BDA1528614A0067741F /* xmlParser.m */,
+				2EF65BF1152877840067741F /* Mediaplayer */,
+				2EF65BF01528774A0067741F /* Parser */,
+				2EF65BEF152877390067741F /* AlertTab */,
+				2EF65BEE152877300067741F /* StreamTab */,
+				2EF65BED152877240067741F /* ConfigTab */,
 				2ECB5EE515218CAD00E9CC2A /* AppDelegate.h */,
 				2ECB5EE615218CAD00E9CC2A /* AppDelegate.m */,
-				2ECB5F0D15218F5D00E9CC2A /* ConfigViewController.h */,
-				2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */,
-				2ECB5F10152192B700E9CC2A /* LevelViewController.h */,
-				2ECB5F11152192B700E9CC2A /* LevelViewController.m */,
-				2EBD2BE215284F540017C227 /* NextViewController.h */,
-				2EBD2BE315284F540017C227 /* NextViewController.m */,
 				2ECB5EE815218CAD00E9CC2A /* MainStoryboard.storyboard */,
 				2ECB5EEB15218CAD00E9CC2A /* ViewController.h */,
 				2ECB5EEC15218CAD00E9CC2A /* ViewController.m */,
@@ -130,6 +191,11 @@
 		2ECB5EDD15218CAD00E9CC2A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E65B58116603164000A8F00 /* sergi.jpg */,
+				2E65B57216600E09000A8F00 /* me.png */,
+				2E5591F1161644EF009EB107 /* Default-568h@2x.png */,
+				2EF65BF5152884A80067741F /* Movie.m4v */,
+				2EF65BE5152874740067741F /* Settings.bundle */,
 				2ECB5F0B15218E0600E9CC2A /* arealvis_config.xml */,
 				2ECB5EDE15218CAD00E9CC2A /* arealvis-Info.plist */,
 				2ECB5EDF15218CAD00E9CC2A /* InfoPlist.strings */,
@@ -153,7 +219,8 @@
 				2ECB5F0015218D6300E9CC2A /* DDXMLNode.m */,
 				2ECB5F0115218D6300E9CC2A /* Private */,
 			);
-			path = KissXML;
+			name = KissXML;
+			path = ../KissXML;
 			sourceTree = "<group>";
 		};
 		2ECB5EF415218D6300E9CC2A /* Additions */ = {
@@ -182,6 +249,60 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
+		2EF65BED152877240067741F /* ConfigTab */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5F0D15218F5D00E9CC2A /* ConfigViewController.h */,
+				2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */,
+				2ECB5F10152192B700E9CC2A /* LevelViewController.h */,
+				2ECB5F11152192B700E9CC2A /* LevelViewController.m */,
+				2EBD2BE215284F540017C227 /* NextViewController.h */,
+				2EBD2BE315284F540017C227 /* NextViewController.m */,
+			);
+			name = ConfigTab;
+			sourceTree = "<group>";
+		};
+		2EF65BEE152877300067741F /* StreamTab */ = {
+			isa = PBXGroup;
+			children = (
+				2EF65BEA1528770E0067741F /* StreamViewController.h */,
+				2EF65BEB1528770F0067741F /* StreamViewController.m */,
+				2EF65BF215287B800067741F /* GetStreamViewController.h */,
+				2EF65BF315287B810067741F /* GetStreamViewController.m */,
+			);
+			name = StreamTab;
+			sourceTree = "<group>";
+		};
+		2EF65BEF152877390067741F /* AlertTab */ = {
+			isa = PBXGroup;
+			children = (
+				2E65B57616601012000A8F00 /* AlertViewController.h */,
+				2E65B57716601012000A8F00 /* AlertViewController.m */,
+				2E65B5831660C2BA000A8F00 /* draw2D.h */,
+				2E65B5841660C2BA000A8F00 /* draw2D.m */,
+			);
+			name = AlertTab;
+			sourceTree = "<group>";
+		};
+		2EF65BF01528774A0067741F /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB5EF315218D6300E9CC2A /* KissXML */,
+				2EF65BD8152861390067741F /* xmlParser.h */,
+				2EF65BDA1528614A0067741F /* xmlParser.m */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		2EF65BF1152877840067741F /* Mediaplayer */ = {
+			isa = PBXGroup;
+			children = (
+				2EF65BE7152874A10067741F /* MoviePlayerUserPrefs.h */,
+				2EF65BE8152874A10067741F /* MoviePlayerUserPrefs.m */,
+			);
+			name = Mediaplayer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -208,7 +329,7 @@
 		2ECB5EC915218CAC00E9CC2A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 2ECB5ECC15218CAC00E9CC2A /* Build configuration list for PBXProject "arealvis" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -220,12 +341,35 @@
 			mainGroup = 2ECB5EC715218CAC00E9CC2A;
 			productRefGroup = 2ECB5ED315218CAC00E9CC2A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2E73B848166966A7003FF32E /* Products */;
+					ProjectRef = 2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2ECB5ED115218CAC00E9CC2A /* arealvis */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2E73B84E166966A8003FF32E /* libRaptureXML.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRaptureXML.a;
+			remoteRef = 2E73B84D166966A8003FF32E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2E73B850166966A8003FF32E /* RaptureXMLTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RaptureXMLTests.octest;
+			remoteRef = 2E73B84F166966A8003FF32E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2ECB5ED015218CAC00E9CC2A /* Resources */ = {
@@ -235,6 +379,11 @@
 				2ECB5EE115218CAD00E9CC2A /* InfoPlist.strings in Resources */,
 				2ECB5EEA15218CAD00E9CC2A /* MainStoryboard.storyboard in Resources */,
 				2ECB5F0C15218E0600E9CC2A /* arealvis_config.xml in Resources */,
+				2EF65BE6152874740067741F /* Settings.bundle in Resources */,
+				2EF65BF6152884A80067741F /* Movie.m4v in Resources */,
+				2E5591F2161644EF009EB107 /* Default-568h@2x.png in Resources */,
+				2E65B57316600E09000A8F00 /* me.png in Resources */,
+				2E65B58216603164000A8F00 /* sergi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +406,11 @@
 				2ECB5F12152192B700E9CC2A /* LevelViewController.m in Sources */,
 				2EBD2BE415284F540017C227 /* NextViewController.m in Sources */,
 				2EF65BDB1528614A0067741F /* xmlParser.m in Sources */,
+				2EF65BE9152874A10067741F /* MoviePlayerUserPrefs.m in Sources */,
+				2EF65BEC1528770F0067741F /* StreamViewController.m in Sources */,
+				2EF65BF415287B810067741F /* GetStreamViewController.m in Sources */,
+				2E65B57816601012000A8F00 /* AlertViewController.m in Sources */,
+				2E65B5851660C2BA000A8F00 /* draw2D.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +442,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -313,6 +471,10 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -330,12 +492,16 @@
 		2ECB5EF115218CAD00E9CC2A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sergio Kuhs (EVBJ8B75Q8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergio Kuhs (EVBJ8B75Q8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "arealvis/arealvis-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "arealvis/arealvis-Info.plist";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A14D8755-A682-4314-9E27-049FFE158D43";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A07FC1A-496C-4210-B918-8781BD21ECFB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -343,12 +509,16 @@
 		2ECB5EF215218CAD00E9CC2A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sergio Kuhs (EVBJ8B75Q8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sergio Kuhs (EVBJ8B75Q8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "arealvis/arealvis-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "arealvis/arealvis-Info.plist";
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "A14D8755-A682-4314-9E27-049FFE158D43";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A07FC1A-496C-4210-B918-8781BD21ECFB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

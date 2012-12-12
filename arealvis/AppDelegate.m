@@ -17,8 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
-    
     NSArray *results= [[xmlParser new] withXPath:@"/config/channel"];
         
     UITabBarController *tabBarController = 
@@ -80,7 +78,7 @@
 
 /**
  * Fetch and Format Device Token and Register Important Information to Remote Server
- */
+
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)devToken {
      NSLog(@"deviceToken: %@", devToken);
 #if !TARGET_IPHONE_SIMULATOR
@@ -181,11 +179,11 @@
 	NSLog(@"Return Data: %@", returnData);
     
 #endif
-}
-
+}*/
 /**
  * Failed to Register for Remote Notifications
  */
+/*
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
     
 #if !TARGET_IPHONE_SIMULATOR
@@ -194,10 +192,11 @@
     
 #endif
 }
-
+*/
 /**
  * Remote Notification Received while application was open.
  */
+/*
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
     
 #if !TARGET_IPHONE_SIMULATOR
@@ -218,7 +217,7 @@
     
 #endif
 }
-
+*/
 /*
  * ------------------------------------------------------------------------------------------
  *  END APNS CODE
