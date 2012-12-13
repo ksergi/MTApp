@@ -21,9 +21,13 @@
     
     NSArray *results = [theDocument nodesForXPath:xPath error:&error];
     
+    NSLog(@"xml read done");
+    
     return results;
     
 }
+
+
 
 
 

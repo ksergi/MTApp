@@ -200,6 +200,7 @@
         detailViewController.results = newResults;
         detailViewController.title = child.name;
         
+        
         [self.navigationController pushViewController:detailViewController animated:YES];
        
         

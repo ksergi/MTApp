@@ -34,7 +34,7 @@
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)viewDidUnload
@@ -69,7 +69,8 @@
 {
     static NSString *CellIdentifier = @"Cell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    
+
+        
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
@@ -81,14 +82,24 @@
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.textLabel.text = [child name];
     
-    if ([child.nextNode.name isEqualToString: @"text"] ) {
+    NSLog(@"child.name= %@, nextnode.name= %@ , child.nextNode.kind= %d\n",
+          child.name, child.nextNode.name, child.nextNode.kind);
+    
+    if (child.nextNode.kind == 1 ) {
+        cell.backgroundColor = [UIColor whiteColor];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        cell.detailTextLabel.text = @"";
+        
+    }
+    else
+        
+    if (child.nextNode.kind == 3 ) {
         cell.backgroundColor = [UIColor yellowColor];
         cell.accessoryType = UITableViewCellAccessoryNone;
         cell.detailTextLabel.text = child.stringValue;
         
     }
 
-    
     
     return cell;
 }

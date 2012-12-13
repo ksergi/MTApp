@@ -38,6 +38,9 @@
     application.applicationIconBadgeNumber = 0;
 
     
+    
+    
+    
     return YES;
 }
 

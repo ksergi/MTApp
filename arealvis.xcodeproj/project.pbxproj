@@ -31,6 +31,9 @@
 		2ECB5F0C15218E0600E9CC2A /* arealvis_config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0B15218E0600E9CC2A /* arealvis_config.xml */; };
 		2ECB5F0F15218F5D00E9CC2A /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */; };
 		2ECB5F12152192B700E9CC2A /* LevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB5F11152192B700E9CC2A /* LevelViewController.m */; };
+		2EE27D38167A71F200EEA19D /* ConfigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE27D37167A71F200EEA19D /* ConfigCell.m */; };
+		2EE27D3E167A77F100EEA19D /* LevelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE27D3D167A77F100EEA19D /* LevelCell.m */; };
+		2EE27D41167A782500EEA19D /* NextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE27D40167A782500EEA19D /* NextViewCell.m */; };
 		2EF65BDB1528614A0067741F /* xmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF65BDA1528614A0067741F /* xmlParser.m */; };
 		2EF65BE41528730A0067741F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF65BE31528730A0067741F /* MediaPlayer.framework */; };
 		2EF65BE6152874740067741F /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2EF65BE5152874740067741F /* Settings.bundle */; };
@@ -100,6 +103,12 @@
 		2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
 		2ECB5F10152192B700E9CC2A /* LevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelViewController.h; sourceTree = "<group>"; };
 		2ECB5F11152192B700E9CC2A /* LevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelViewController.m; sourceTree = "<group>"; };
+		2EE27D36167A71F200EEA19D /* ConfigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigCell.h; sourceTree = "<group>"; };
+		2EE27D37167A71F200EEA19D /* ConfigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigCell.m; sourceTree = "<group>"; };
+		2EE27D3C167A77F000EEA19D /* LevelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelCell.h; sourceTree = "<group>"; };
+		2EE27D3D167A77F100EEA19D /* LevelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelCell.m; sourceTree = "<group>"; };
+		2EE27D3F167A782500EEA19D /* NextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewCell.h; sourceTree = "<group>"; };
+		2EE27D40167A782500EEA19D /* NextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewCell.m; sourceTree = "<group>"; };
 		2EF65BD8152861390067741F /* xmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xmlParser.h; sourceTree = "<group>"; };
 		2EF65BDA1528614A0067741F /* xmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xmlParser.m; sourceTree = "<group>"; };
 		2EF65BE31528730A0067741F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
@@ -249,9 +258,23 @@
 			path = Private;
 			sourceTree = "<group>";
 		};
+		2EE27D42167A782F00EEA19D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2EE27D36167A71F200EEA19D /* ConfigCell.h */,
+				2EE27D37167A71F200EEA19D /* ConfigCell.m */,
+				2EE27D3C167A77F000EEA19D /* LevelCell.h */,
+				2EE27D3D167A77F100EEA19D /* LevelCell.m */,
+				2EE27D3F167A782500EEA19D /* NextViewCell.h */,
+				2EE27D40167A782500EEA19D /* NextViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		2EF65BED152877240067741F /* ConfigTab */ = {
 			isa = PBXGroup;
 			children = (
+				2EE27D42167A782F00EEA19D /* Cells */,
 				2ECB5F0D15218F5D00E9CC2A /* ConfigViewController.h */,
 				2ECB5F0E15218F5D00E9CC2A /* ConfigViewController.m */,
 				2ECB5F10152192B700E9CC2A /* LevelViewController.h */,
@@ -411,6 +434,9 @@
 				2EF65BF415287B810067741F /* GetStreamViewController.m in Sources */,
 				2E65B57816601012000A8F00 /* AlertViewController.m in Sources */,
 				2E65B5851660C2BA000A8F00 /* draw2D.m in Sources */,
+				2EE27D38167A71F200EEA19D /* ConfigCell.m in Sources */,
+				2EE27D3E167A77F100EEA19D /* LevelCell.m in Sources */,
+				2EE27D41167A782500EEA19D /* NextViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,7 +35,7 @@
     // self.clearsSelectionOnViewWillAppear = NO;
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-     self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)viewDidUnload
@@ -122,7 +122,6 @@
 */
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    
     if([[segue identifier] isEqualToString:@"elementDetail"]){
         NSIndexPath *myIndex = [self.tableView indexPathForSelectedRow];
         DDXMLElement *channel = [results objectAtIndex:myIndex.row];
