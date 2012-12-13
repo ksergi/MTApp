@@ -10,6 +10,7 @@
 #import "NextViewController.h"
 #import "DDXML.h"
 #import "xmlParser.h"
+#import "LevelCell.h"
 
 @interface LevelViewController ()
 
@@ -70,21 +71,21 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"DetailCell";
-     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+     LevelCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
-    UILabel *nameLabel = (UILabel *)[cell viewWithTag:100];
-    UILabel *detailLabel = (UILabel *)[cell viewWithTag:101];
-    UITextField *elementValueText = (UITextField *) [cell viewWithTag:102];
+    //UILabel *nameLabel = (UILabel *)[cell viewWithTag:100];
+    //UILabel *detailLabel = (UILabel *)[cell viewWithTag:101];
+    //UITextField *elementValueText = (UITextField *) [cell viewWithTag:102];
     
     DDXMLElement *channel = [self.results objectAtIndex:0];
     DDXMLNode *child = [channel childAtIndex:indexPath.row];
     
     
-    nameLabel.text = [child name];
+    cell.nameLabel.text = [child name];
     if ([child.nextNode.name isEqualToString: @"text"]) {
-        elementValueText.text = [child stringValue];
-        detailLabel.text = [child stringValue];
+        cell.elementValueText.text = [child stringValue];
+        cell.detailLabel.text = [child stringValue];
     }
     
 

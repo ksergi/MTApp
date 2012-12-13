@@ -11,6 +11,7 @@
 @implementation LevelCell
 
 @synthesize nameLabel;
+@synthesize detailLabel;
 @synthesize elementValueText;
 
 @end

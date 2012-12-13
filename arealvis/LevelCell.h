@@ -11,6 +11,7 @@
 @interface LevelCell : UITableViewCell
 
 @property (nonatomic, strong) IBOutlet UILabel *nameLabel;
+@property (nonatomic, strong) IBOutlet UILabel *detailLabel;
 @property (nonatomic, strong) IBOutlet UITextField *elementValueText;
 
 

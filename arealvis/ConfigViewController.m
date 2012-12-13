@@ -10,6 +10,7 @@
 #import "LevelViewController.h"
 #import "xmlParser.h"
 #import "DDXML.h"
+#import "ConfigCell.h"
 
 @interface ConfigViewController ()
 
@@ -68,7 +69,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"MyCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    ConfigCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
     DDXMLElement *channel = [results objectAtIndex:indexPath.row];

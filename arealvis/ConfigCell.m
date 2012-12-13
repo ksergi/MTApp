@@ -10,7 +10,7 @@
 
 @implementation ConfigCell
 
-@synthesize nameLabel;
+@synthesize textLabel;
 
 
 @end

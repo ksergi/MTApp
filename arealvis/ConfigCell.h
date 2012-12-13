@@ -10,6 +10,6 @@
 
 @interface ConfigCell : UITableViewCell
 
-@property (nonatomic, strong) IBOutlet UILabel *nameLabel;
+@property (nonatomic, strong) IBOutlet UILabel *textLabel;
 
 @end
