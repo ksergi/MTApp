@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3081" systemVersion="12D38" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="a3L-Qh-I5B">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3083" systemVersion="12D44" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="a3L-Qh-I5B">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2080"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
@@ -65,52 +65,37 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k0A-gD-JJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-604" y="-1335"/>
+            <point key="canvasLocation" x="-722" y="-1367"/>
         </scene>
         <!--Level View Controller-->
         <scene sceneID="DHK-FR-3Dr">
             <objects>
                 <tableViewController id="oeW-mW-FA6" customClass="LevelViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="83" sectionHeaderHeight="22" sectionFooterHeight="22" id="0ST-pB-z0I">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="47" sectionHeaderHeight="22" sectionFooterHeight="22" id="0ST-pB-z0I">
                         <rect key="frame" x="0.0" y="64" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DetailCell" rowHeight="83" id="PeA-TQ-1Ty" customClass="LevelCell">
-                                <rect key="frame" x="0.0" y="22" width="320" height="83"/>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="DetailCell" rowHeight="47" id="PeA-TQ-1Ty" customClass="LevelCell">
+                                <rect key="frame" x="0.0" y="22" width="320" height="47"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="300" height="82"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="46"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" id="2Mz-qY-c9k">
-                                            <rect key="frame" x="20" y="10" width="148" height="29"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </label>
-                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ycF-al-z9G">
-                                            <rect key="frame" x="20" y="41" width="158" height="26"/>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BId-Mf-3lj">
+                                            <rect key="frame" x="20" y="12" width="260" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </label>
-                                        <textField opaque="NO" clipsSubviews="YES" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" id="Wbt-23-Hrd">
-                                            <rect key="frame" x="164" y="10" width="136" height="31"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <textInputTraits key="textInputTraits"/>
-                                        </textField>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
                                 <connections>
-                                    <outlet property="detailLabel" destination="ycF-al-z9G" id="ymi-w4-0jS"/>
-                                    <outlet property="elementValueText" destination="Wbt-23-Hrd" id="20R-dr-nEY"/>
-                                    <outlet property="nameLabel" destination="2Mz-qY-c9k" id="m9y-Qr-6Yo"/>
+                                    <outlet property="nameLabel" destination="BId-Mf-3lj" id="uFd-pp-LvL"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -123,13 +108,13 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7j-UN-PjE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-68" y="-1310"/>
+            <point key="canvasLocation" x="-287" y="-1367"/>
         </scene>
-        <!--Navigation Controller - Item-->
+        <!--Navigation Controller - Configuration-->
         <scene sceneID="c4R-eV-kpE">
             <objects>
                 <navigationController id="fVW-Yd-aib" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="eCt-N8-aMC"/>
+                    <tabBarItem key="tabBarItem" title="Configuration" image="95-equalizer.png" id="eCt-N8-aMC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="WNZ-fk-1UA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -142,7 +127,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G6s-to-gf5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1164" y="-1327"/>
+            <point key="canvasLocation" x="-1196" y="-1367"/>
         </scene>
         <!--Stream View Controller-->
         <scene sceneID="V4d-0A-YSD">
@@ -175,7 +160,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tJW-ek-yGQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-646" y="-628"/>
+            <point key="canvasLocation" x="-722" y="-773"/>
         </scene>
         <!--Get Stream View Controller - Channel-->
         <scene sceneID="Q7a-iP-7CG">
@@ -200,7 +185,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ic-AS-LaA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-247" y="-610"/>
+            <point key="canvasLocation" x="-287" y="-773"/>
         </scene>
         <!--Alert View Controller - Alert-->
         <scene sceneID="2vy-0H-hMB">
@@ -211,17 +196,17 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Alert" id="nmq-qD-wVV"/>
+                    <tabBarItem key="tabBarItem" title="Alert" image="184-warning.png" id="nmq-qD-wVV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBf-Ba-bpR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1197" y="96"/>
+            <point key="canvasLocation" x="-1196" y="-160"/>
         </scene>
-        <!--Navigation Controller - Viewer-->
+        <!--Navigation Controller - ArealVis-->
         <scene sceneID="H3M-R8-R45">
             <objects>
-                <navigationController id="iCP-Ze-xyk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Viewer" id="bgc-TQ-HDg"/>
+                <navigationController title="ArealVis" id="iCP-Ze-xyk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Viewer" image="42-photos.png" id="bgc-TQ-HDg"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="5BI-NU-6YB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -234,9 +219,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KIN-mF-m0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1172" y="-628"/>
+            <point key="canvasLocation" x="-1196" y="-773"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="184-warning.png" width="24" height="19"/>
+        <image name="42-photos.png" width="22" height="24"/>
+        <image name="95-equalizer.png" width="26" height="24"/>
+    </resources>
     <classes>
         <class className="AlertViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AlertViewController.h"/>

@@ -14,20 +14,24 @@
 
 -(NSArray *) withXPath:(NSString *)xPath{
     NSError *error = nil;
-    NSString * content = [NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"arealvis_config" ofType:@"xml"] encoding:NSUTF8StringEncoding error:&error]; 
     
+    NSString* documentsPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    
+    NSString* configfile = [documentsPath stringByAppendingPathComponent:@"config.xml"];
+    
+    if (configfile) {
+  
+        
+        
+        self.content = [NSString stringWithContentsOfFile:configfile encoding:NSASCIIStringEncoding error:&error];
+    }
+    _theDocument = [[DDXMLDocument alloc] initWithXMLString:self.content options:0 error:&error];
+    
+   _results = [_theDocument nodesForXPath:xPath error:&error];
+    
+    return _results;
 
-    DDXMLDocument *theDocument = [[DDXMLDocument alloc] initWithXMLString:content options:0 error:&error];
-    
-    NSArray *results = [theDocument nodesForXPath:xPath error:&error];
-    
-    NSLog(@"xml read done");
-    
-    return results;
-    
 }
-
-
 
 
 

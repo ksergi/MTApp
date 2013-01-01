@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NextViewController : UITableViewController
+@interface NextViewController : UITableViewController 
 
 @property (nonatomic, strong) NSArray *results;
 @property (nonatomic, strong) NSString *xPath;
+@property(nonatomic, getter=isSelected) BOOL selected;
 
+-(IBAction)save2xml:(id)sender;
 
 
 @end

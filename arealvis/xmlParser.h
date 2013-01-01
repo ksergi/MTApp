@@ -7,8 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DDXML.h"
 
-@interface xmlParser : NSObject
+@interface xmlParser : NSObject {
+
+
+}
+
+@property(strong, nonatomic) NSString *content;
+@property(strong, nonatomic) DDXMLDocument *theDocument;
+@property(strong, nonatomic) NSArray *results;
 
 -(NSArray *)withXPath:(NSString *) xPath;
 

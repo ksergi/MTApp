@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E056469168F5DB600850923 /* 36-toolbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E056468168F5DB600850923 /* 36-toolbox.png */; };
+		2E05646E168F5DC700850923 /* 42-photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E05646D168F5DC700850923 /* 42-photos.png */; };
+		2E056470168F5DE700850923 /* 95-equalizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E05646F168F5DE700850923 /* 95-equalizer.png */; };
+		2E056472168F5E7500850923 /* 184-warning.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E056471168F5E7500850923 /* 184-warning.png */; };
+		2E1808271690B1260056FDCE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1808261690B1260056FDCE /* MobileCoreServices.framework */; };
+		2E18082A1692E8E80056FDCE /* getXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1808291692E8E80056FDCE /* getXML.m */; };
+		2E18082C16930BF40056FDCE /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E18082B16930BF30056FDCE /* Default-Portrait~ipad.png */; };
+		2E18082E16930C1A0056FDCE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E18082D16930C1A0056FDCE /* Default.png */; };
+		2E18083016930C200056FDCE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E18082F16930C200056FDCE /* Default@2x.png */; };
+		2E2F543A168F99550061BD59 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2F5439168F99550061BD59 /* SystemConfiguration.framework */; };
+		2E2F543E168F9EAA0061BD59 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2F5438168F975D0061BD59 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2E5591F2161644EF009EB107 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5591F1161644EF009EB107 /* Default-568h@2x.png */; };
 		2E65B57316600E09000A8F00 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E65B57216600E09000A8F00 /* me.png */; };
 		2E65B57816601012000A8F00 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65B57716601012000A8F00 /* AlertViewController.m */; };
@@ -41,26 +52,23 @@
 		2EF65BEC1528770F0067741F /* StreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF65BEB1528770F0067741F /* StreamViewController.m */; };
 		2EF65BF415287B810067741F /* GetStreamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF65BF315287B810067741F /* GetStreamViewController.m */; };
 		2EF65BF6152884A80067741F /* Movie.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 2EF65BF5152884A80067741F /* Movie.m4v */; };
+		2EF7C1961690805800C274F9 /* MainStoryboard_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7C1951690805800C274F9 /* MainStoryboard_ipad.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2E73B84D166966A8003FF32E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0DEB8EB41467EC9B00024989;
-			remoteInfo = RaptureXML;
-		};
-		2E73B84F166966A8003FF32E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 0252B2DD142ADFC60018B75D;
-			remoteInfo = RaptureXMLTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		2E056468168F5DB600850923 /* 36-toolbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "36-toolbox.png"; sourceTree = "<group>"; };
+		2E05646D168F5DC700850923 /* 42-photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42-photos.png"; sourceTree = "<group>"; };
+		2E05646F168F5DE700850923 /* 95-equalizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "95-equalizer.png"; sourceTree = "<group>"; };
+		2E056471168F5E7500850923 /* 184-warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "184-warning.png"; sourceTree = "<group>"; };
+		2E1808261690B1260056FDCE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2E1808281692E8E80056FDCE /* getXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getXML.h; sourceTree = "<group>"; };
+		2E1808291692E8E80056FDCE /* getXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = getXML.m; sourceTree = "<group>"; };
+		2E18082B16930BF30056FDCE /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		2E18082D16930C1A0056FDCE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		2E18082F16930C200056FDCE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		2E2F5437168F975D0061BD59 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2E2F5438168F975D0061BD59 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2E2F5439168F99550061BD59 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2E5591F1161644EF009EB107 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		2E65B57216600E09000A8F00 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
 		2E65B57616601012000A8F00 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
@@ -70,7 +78,6 @@
 		2E65B58116603164000A8F00 /* sergi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sergi.jpg; sourceTree = "<group>"; };
 		2E65B5831660C2BA000A8F00 /* draw2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw2D.h; sourceTree = "<group>"; };
 		2E65B5841660C2BA000A8F00 /* draw2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = draw2D.m; sourceTree = "<group>"; };
-		2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RaptureXML.xcodeproj; path = ../../RaptureXML/RaptureXML.xcodeproj; sourceTree = "<group>"; };
 		2EBD2BE215284F540017C227 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		2EBD2BE315284F540017C227 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 		2ECB5ED215218CAC00E9CC2A /* arealvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arealvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +127,7 @@
 		2EF65BF215287B800067741F /* GetStreamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetStreamViewController.h; sourceTree = "<group>"; };
 		2EF65BF315287B810067741F /* GetStreamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetStreamViewController.m; sourceTree = "<group>"; };
 		2EF65BF5152884A80067741F /* Movie.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Movie.m4v; sourceTree = "<group>"; };
+		2EF7C1951690805800C274F9 /* MainStoryboard_ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_ipad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E1808271690B1260056FDCE /* MobileCoreServices.framework in Frameworks */,
+				2E2F543A168F99550061BD59 /* SystemConfiguration.framework in Frameworks */,
 				2E65B57E16602078000A8F00 /* ImageIO.framework in Frameworks */,
 				2E65B57C16601730000A8F00 /* CoreImage.framework in Frameworks */,
 				2EF65BE41528730A0067741F /* MediaPlayer.framework in Frameworks */,
@@ -139,22 +149,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E73B848166966A7003FF32E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2E73B84E166966A8003FF32E /* libRaptureXML.a */,
-				2E73B850166966A8003FF32E /* RaptureXMLTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		2ECB5EC715218CAC00E9CC2A = {
 			isa = PBXGroup;
 			children = (
 				2ECB5EDC15218CAC00E9CC2A /* arealvis */,
 				2ECB5ED515218CAC00E9CC2A /* Frameworks */,
 				2ECB5ED315218CAC00E9CC2A /* Products */,
-				2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +169,8 @@
 		2ECB5ED515218CAC00E9CC2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2E1808261690B1260056FDCE /* MobileCoreServices.framework */,
+				2E2F5439168F99550061BD59 /* SystemConfiguration.framework */,
 				2E65B57D16602078000A8F00 /* ImageIO.framework */,
 				2E65B57B16601730000A8F00 /* CoreImage.framework */,
 				2EF65BE31528730A0067741F /* MediaPlayer.framework */,
@@ -189,7 +191,10 @@
 				2EF65BED152877240067741F /* ConfigTab */,
 				2ECB5EE515218CAD00E9CC2A /* AppDelegate.h */,
 				2ECB5EE615218CAD00E9CC2A /* AppDelegate.m */,
+				2E2F5437168F975D0061BD59 /* Reachability.h */,
+				2E2F5438168F975D0061BD59 /* Reachability.m */,
 				2ECB5EE815218CAD00E9CC2A /* MainStoryboard.storyboard */,
+				2EF7C1951690805800C274F9 /* MainStoryboard_ipad.storyboard */,
 				2ECB5EEB15218CAD00E9CC2A /* ViewController.h */,
 				2ECB5EEC15218CAD00E9CC2A /* ViewController.m */,
 				2ECB5EDD15218CAD00E9CC2A /* Supporting Files */,
@@ -200,6 +205,13 @@
 		2ECB5EDD15218CAD00E9CC2A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E18082F16930C200056FDCE /* Default@2x.png */,
+				2E18082D16930C1A0056FDCE /* Default.png */,
+				2E18082B16930BF30056FDCE /* Default-Portrait~ipad.png */,
+				2E056471168F5E7500850923 /* 184-warning.png */,
+				2E05646F168F5DE700850923 /* 95-equalizer.png */,
+				2E05646D168F5DC700850923 /* 42-photos.png */,
+				2E056468168F5DB600850923 /* 36-toolbox.png */,
 				2E65B58116603164000A8F00 /* sergi.jpg */,
 				2E65B57216600E09000A8F00 /* me.png */,
 				2E5591F1161644EF009EB107 /* Default-568h@2x.png */,
@@ -313,6 +325,8 @@
 				2ECB5EF315218D6300E9CC2A /* KissXML */,
 				2EF65BD8152861390067741F /* xmlParser.h */,
 				2EF65BDA1528614A0067741F /* xmlParser.m */,
+				2E1808281692E8E80056FDCE /* getXML.h */,
+				2E1808291692E8E80056FDCE /* getXML.m */,
 			);
 			name = Parser;
 			sourceTree = "<group>";
@@ -364,35 +378,12 @@
 			mainGroup = 2ECB5EC715218CAC00E9CC2A;
 			productRefGroup = 2ECB5ED315218CAC00E9CC2A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 2E73B848166966A7003FF32E /* Products */;
-					ProjectRef = 2E73B847166966A7003FF32E /* RaptureXML.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				2ECB5ED115218CAC00E9CC2A /* arealvis */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		2E73B84E166966A8003FF32E /* libRaptureXML.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRaptureXML.a;
-			remoteRef = 2E73B84D166966A8003FF32E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2E73B850166966A8003FF32E /* RaptureXMLTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = RaptureXMLTests.octest;
-			remoteRef = 2E73B84F166966A8003FF32E /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2ECB5ED015218CAC00E9CC2A /* Resources */ = {
@@ -407,6 +398,14 @@
 				2E5591F2161644EF009EB107 /* Default-568h@2x.png in Resources */,
 				2E65B57316600E09000A8F00 /* me.png in Resources */,
 				2E65B58216603164000A8F00 /* sergi.jpg in Resources */,
+				2E056469168F5DB600850923 /* 36-toolbox.png in Resources */,
+				2E05646E168F5DC700850923 /* 42-photos.png in Resources */,
+				2E056470168F5DE700850923 /* 95-equalizer.png in Resources */,
+				2E056472168F5E7500850923 /* 184-warning.png in Resources */,
+				2EF7C1961690805800C274F9 /* MainStoryboard_ipad.storyboard in Resources */,
+				2E18082C16930BF40056FDCE /* Default-Portrait~ipad.png in Resources */,
+				2E18082E16930C1A0056FDCE /* Default.png in Resources */,
+				2E18083016930C200056FDCE /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +436,8 @@
 				2EE27D38167A71F200EEA19D /* ConfigCell.m in Sources */,
 				2EE27D3E167A77F100EEA19D /* LevelCell.m in Sources */,
 				2EE27D41167A782500EEA19D /* NextViewCell.m in Sources */,
+				2E2F543E168F9EAA0061BD59 /* Reachability.m in Sources */,
+				2E18082A1692E8E80056FDCE /* getXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +471,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -499,6 +501,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -524,10 +527,12 @@
 				GCC_PREFIX_HEADER = "arealvis/arealvis-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "arealvis/arealvis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "A14D8755-A682-4314-9E27-049FFE158D43";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A07FC1A-496C-4210-B918-8781BD21ECFB";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -541,10 +546,12 @@
 				GCC_PREFIX_HEADER = "arealvis/arealvis-Prefix.pch";
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "arealvis/arealvis-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "A14D8755-A682-4314-9E27-049FFE158D43";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2A07FC1A-496C-4210-B918-8781BD21ECFB";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
