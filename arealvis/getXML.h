@@ -15,6 +15,6 @@
 @property(nonatomic, strong) NSMutableData *receivedData;
 
 -(void) receiveString;
-
+- (void)showConfirmAlert;
 
 @end

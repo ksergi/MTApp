@@ -56,19 +56,45 @@
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-
-    _xmlString =  [[NSString alloc] initWithData:_receivedData encoding:NSASCIIStringEncoding];
-    
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-    NSString *documentsDirectory = [paths objectAtIndex:0]; // Get documents directory
-    
     NSError *error;
+    _xmlString =  [[NSString alloc] initWithData:_receivedData
+                                        encoding:NSASCIIStringEncoding];
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
     BOOL succeed = [_xmlString writeToFile:[documentsDirectory stringByAppendingPathComponent:@"config.xml"]
-                              atomically:YES encoding:NSUTF8StringEncoding error:&error];
+                                atomically:YES
+                                  encoding:NSUTF8StringEncoding
+                                     error:&error];
     if (!succeed){
-        // Handle error here
+        [self showConfirmAlert];
     }
     
     [[NSNotificationCenter defaultCenter] postNotificationName:@"xmlsavefinished" object:nil];
 }
+
+- (void)showConfirmAlert {
+	UIAlertView *alert = [[UIAlertView alloc] init];
+	[alert setTitle:@"Saving Error"];
+	[alert setMessage:@"Configuration could not be saved!"];
+	[alert setDelegate:self];
+	[alert addButtonWithTitle:@"Retry"];
+	[alert show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+	if (buttonIndex == 0)
+	{
+		[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=TWITTER"]];
+        NSLog(@"chancel");
+        
+    }
+	else if (buttonIndex == 1)
+	{
+        [self receiveString];
+        
+	}
+}
+
+
 @end

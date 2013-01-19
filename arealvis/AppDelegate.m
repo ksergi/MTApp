@@ -13,6 +13,7 @@
 #import "DDXML.h"
 #import "Reachability.h"
 #import "getXML.h"
+#import "AlarmViewController.h"
 
 
 @implementation AppDelegate
@@ -29,7 +30,12 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{    
+{
+    
+    NSDictionary *pushNotificationPayload = [launchOptions valueForKey:UIApplicationLaunchOptionsRemoteNotificationKey];
+    if(pushNotificationPayload) {
+        [self application:application didReceiveRemoteNotification:pushNotificationPayload];
+    }
     Reachability *networkReachability = [Reachability reachabilityForInternetConnection];
     NetworkStatus networkStatus = [networkReachability currentReachabilityStatus];
     
@@ -111,5 +117,28 @@
 	}
 }
 
+
+- (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
+{
+	NSLog(@"My token is: %@", deviceToken);
+}
+
+- (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
+{
+	NSLog(@"Failed to get token, error: %@", error);
+}
+
+-(void)application:(UIApplication *)app didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+ 
+    UITabBarController *tabBarController =
+    (UITabBarController *)self.window.rootViewController;
+    UINavigationController *navigationController =
+    [[tabBarController viewControllers] objectAtIndex:0];
+    [[navigationController viewControllers] objectAtIndex:0];
+    
+    [tabBarController setSelectedIndex:2];
+    [[NSNotificationCenter defaultCenter] postNotificationName: @"AlarmReceived" object:userInfo];
+}
 
 @end
